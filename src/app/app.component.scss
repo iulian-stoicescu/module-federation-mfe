@@ -6,4 +6,14 @@
   align-items: center;
   justify-content: center;
   font-size: 2rem;
+
+  .btn {
+    cursor: pointer;
+    color: yellow;
+    background-color: darkblue;
+    border-color: yellow;
+    padding: 1rem;
+    margin: 1rem;
+  }
+
 }
