@@ -1,0 +1,182 @@
+{
+  "root": true,
+  "ignorePatterns": [
+    "!**/*"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*.ts"
+      ],
+      "parserOptions": {
+        "project": [
+          "tsconfig.app.json",
+          "tsconfig.spec.json"
+        ],
+        "createDefaultProgram": true
+      },
+      "parser": "@typescript-eslint/parser",
+      "extends": [
+        "plugin:@angular-eslint/recommended",
+        "plugin:@angular-eslint/template/process-inline-templates",
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended"
+      ],
+      "plugins": [
+        "deprecation"
+      ],
+      "rules": {
+        "@angular-eslint/component-selector": [
+          "error",
+          {
+            "prefix": "app",
+            "style": "kebab-case",
+            "type": "element"
+          }
+        ],
+        "@angular-eslint/directive-selector": [
+          "error",
+          {
+            "prefix": "app",
+            "style": "camelCase",
+            "type": "attribute"
+          }
+        ],
+        "@typescript-eslint/consistent-type-definitions": "error",
+        "@typescript-eslint/dot-notation": "off",
+        "@typescript-eslint/explicit-member-accessibility": [
+          "off",
+          {
+            "accessibility": "explicit"
+          }
+        ],
+        "@typescript-eslint/quotes": [
+          "warn",
+          "single",
+          {
+            "avoidEscape": true
+          }
+        ],
+        "@typescript-eslint/no-explicit-any": 0,
+        "@typescript-eslint/explicit-module-boundary-types": 0,
+        "@typescript-eslint/no-unused-vars": 0,
+        "@typescript-eslint/no-empty-function": 0,
+        "@typescript-eslint/no-var-requires": 0,
+        "@typescript-eslint/prefer-as-const": 1,
+        "@typescript-eslint/no-empty-interface": 1,
+        "@typescript-eslint/no-empty": 0,
+        "@typescript-eslint/member-ordering": [
+          "error",
+          {
+            "default": [
+              "static-field",
+              "instance-field",
+              "static-method",
+              "instance-method"
+            ]
+          }
+        ],
+        "@typescript-eslint/prefer-function-type": 1,
+        "@typescript-eslint/no-inferrable-types": [
+          2,
+          {
+            "ignoreParameters": true
+          }
+        ],
+        "@typescript-eslint/no-misused-new": "error",
+        "@typescript-eslint/no-non-null-assertion": 1,
+        "@typescript-eslint/no-throw-literal": 1,
+        "@typescript-eslint/type-annotation-spacing": 1,
+        "@typescript-eslint/unified-signatures": 1,
+        "@typescript-eslint/naming-convention": 0,
+        "semi": "off",
+        "@typescript-eslint/semi": [
+          "warn"
+        ],
+        "arrow-body-style": 0,
+        "brace-style": [
+          "error",
+          "1tbs"
+        ],
+        "id-blacklist": "off",
+        "id-match": "off",
+        "no-underscore-dangle": "off",
+        "naming-convention": "off",
+        "no-var": 0,
+        "arrow-spacing": [
+          "warn",
+          {
+            "after": true,
+            "before": true
+          }
+        ],
+        "no-case-declarations": 0,
+        "no-multiple-empty-lines": [
+          "warn",
+          {
+            "max": 2
+          }
+        ],
+        "max-len": [
+          "warn",
+          {
+            "code": 140
+          }
+        ],
+        "no-restricted-imports": [
+          "error",
+          {
+            "paths": [
+              "rxjs/Rx"
+            ]
+          }
+        ],
+        "guard-for-in": "warn",
+        "no-unused-labels": "warn",
+        "deprecation/deprecation": "warn",
+        "curly": 1,
+        "no-caller": 1,
+        "no-bitwise": 1,
+        "no-console": [
+          "warn",
+          {
+            "allow": [
+              "debug",
+              "info",
+              "trace",
+              "log"
+            ]
+          }
+        ],
+        "no-debugger": 1,
+        "no-new-wrappers": "error",
+        "constructor-super": "error",
+        "no-eval": "error",
+        "dot-notation": "error",
+        "no-fallthrough": "error",
+        "no-trailing-spaces": "error",
+        "no-undef-init": "error",
+        "no-unused-expressions": "error",
+        "sort-keys": 0,
+        "prefer-const": "warn",
+        "radix": "warn",
+        "eqeqeq": [
+          "error",
+          "always",
+          {
+            "null": "ignore"
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "*.html"
+      ],
+      "extends": [
+        "plugin:@angular-eslint/template/recommended"
+      ],
+      "rules": {}
+    }
+  ]
+}
