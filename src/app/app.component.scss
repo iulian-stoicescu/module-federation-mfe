@@ -7,6 +7,15 @@
   justify-content: center;
   font-size: 2rem;
 
+  .text-box {
+    display: flex;
+    flex-direction: column;
+
+    span:last-of-type {
+      color: coral;
+    }
+  }
+
   .btn {
     cursor: pointer;
     color: yellow;
