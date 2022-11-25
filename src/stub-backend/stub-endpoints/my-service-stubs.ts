@@ -1,3 +1,6 @@
+/*
+ * Copyright '2022' Iulian Stoicescu or its subsidiaries. All Rights Reserved.
+ */
 import { UserInfoModel } from '../../app/models/user-info.model';
 import { userInfoFactory } from '../factories/user-info-factory';
 

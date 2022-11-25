@@ -1,3 +1,6 @@
+/*
+ * Copyright '2022' Iulian Stoicescu or its subsidiaries. All Rights Reserved.
+ */
 import { users } from './stub-endpoints/my-service-stubs';
 
 export const customRoutes = server => {

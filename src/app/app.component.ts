@@ -1,3 +1,6 @@
+/*
+ * Copyright '2022' Iulian Stoicescu or its subsidiaries. All Rights Reserved.
+ */
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { MyService } from './services/my.service';
 import { UserInfoModel } from './models/user-info.model';
