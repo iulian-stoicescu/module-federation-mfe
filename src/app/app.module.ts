@@ -1,3 +1,6 @@
+/*
+ * Copyright '2022' Iulian Stoicescu or its subsidiaries. All Rights Reserved.
+ */
 import { DoBootstrap, Injector, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 

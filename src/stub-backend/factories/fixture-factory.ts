@@ -1,3 +1,6 @@
+/*
+ * Copyright '2022' Iulian Stoicescu or its subsidiaries. All Rights Reserved.
+ */
 export abstract class FixtureFactory<T> {
   /**
    * Builds a fixture object populating all its attributes with fake values.

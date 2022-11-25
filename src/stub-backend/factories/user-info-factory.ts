@@ -1,3 +1,6 @@
+/*
+ * Copyright '2022' Iulian Stoicescu or its subsidiaries. All Rights Reserved.
+ */
 import { FixtureFactory } from './fixture-factory';
 import { UserInfoModel } from '../../app/models/user-info.model';
 import { faker } from '@faker-js/faker';
