@@ -1,6 +1,8 @@
 <div class="mfe-box">
-  <span>this is {{title}}</span>
-
+  <div class="text-box">
+    <span>this is {{title}}</span>
+    <span *ngIf="userInfoLoaded">user name is {{userInfo.name}}</span>
+  </div>
   <button class="btn" (click)="navigateToHome()">
     Navigate to /home page
   </button>
